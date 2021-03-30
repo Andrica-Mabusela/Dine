@@ -1,0 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#hero-image-wrapper{
+	width: 100%;
+	height: 70vh;
+	background: url(../images/foodie.jpg) no-repeat;
+	background-size: cover;
+}
+
+.overlay-content{
+	width: 100%;
+	height: 70vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+#contact-info > div{
+	flex-basis: 200px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	text-align: center;
+}
+#contact-info span{
+	font-size: 1.2em;
+	color: white;
+}
+
+#contact-info{
+	margin-top: 10px;
+	padding: 10px;
+	background-color: black;
+	opacity: 0.8;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+}
+#contact-info > div{
+	flex-basis: 200px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	text-align: center;
+	padding: 10px;
+}
+#contact-info span{
+	font-size: 1.2em;
+	color: white;
+}
+#social a{
+	margin: 3 5px;
+	text-decoration: none;
+}
+#social i{
+	color: black;
+	padding: 5px;
+	border: 1px solid rgb(167 155 155 / 20%);
+	border-radius: 48%;
+}
+
+#social .icon-facebook{
+	background-color: blue;
+}
+
+#social .icon-twitter{
+	background-color: skyblue;
+}
+
+#social .icon-pinterest{
+	background-color: red;
+}
+
+
+/*start navbar styles*/
+.navbar{
+	padding: 0;
+	margin-top: 10px;
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 0, 0.09);
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar .navbar-brand img{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+.navbar .nav-item{
+	margin: 0 10px;
+}
+.navbar .nav-link{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white !important;
+}
+
+.navbar .nav-item:nth-child(3) .nav-link{
+	color: #bb4d4d !important;
+}
+
+
+/*end navbar styles */
+
+#restaurant-name{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#restaurant-name h1{
+	font-size: 4rem;
+	color: #bb4d4d;
+}
+#restaurant-name p{
+	font-size: 20px;
+	color: white;
+}
+
+.about-header{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+/*start media queries for the above style rules */
+@media (max-width: 500px){
+
+#restaurant-name{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#restaurant-name h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.menu-item .card-body h4{
+	font-size: 1.2rem;
+}
+
+.menu-item img{
+	/*height: 150px;*/
+}
+
+
+}/* end of query */
+
+/*end media queries for the above style rules */
+
+
+
+
+
+
+
+
+
+
+
+/*start of main styles */
+main .first-row img{
+	width: 100%;
+}
+
+.content-header{
+	color: #bb4d4d;
+	font-weight: bold;
+	/*font-size: 35px; */
+}
+main .card{
+	border-color: transparent !important;
+}
+
+main .card img{
+	width: 100%;
+	height: 250px;
+	border-radius: 20px;
+}
+main .card p{
+	font-size: 1.1em;
+}
+.card-deck .social a{
+	margin: 10px;
+}
+.card-deck .social i{
+	font-size: 1.3em;
+}
+
+
+
+
+.services .catering p:last-child{
+	margin-left: 10px;
+}
+
+.services .catering img{
+	width: 100px;
+	height: 80px;
+}
+.services .catering .d-block{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid lightgrey;
+}
+.menu-item{
+	flex-basis: 400px;
+	height: 200px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	display: flex;
+}
+.menu-item > div{
+	flex-basis: 150px;
+	flex-grow: 1;
+	flex-shrink: 1;
+
+}
+.menu-item > div:last-child{
+	background-color: #ffc0c0;
+}
+.menu-item h5{
+	color: #bb4d4d;
+}
+.menu-item img{
+	width: 100%;
+	height: 200px;
+
+}
+
+.drinks-section{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.drinks-section > div{
+	flex-basis: 150px;
+	max-width: 300px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 20px;
+	text-align: center;
+}
+
+.drinks-section img{
+	width:100px;
+	height: 100px;
+	border-radius: 20px;
+}
+
+
+
+
+/*end of main styles */
+
+
+
+
+
+
+
+
+/*____start of footer styles___________ */
+#footer-wrapper{
+	background-color: #141313;
+	color: white;
+}
+
+
+footer .form-group{
+	margin-left: 10px;
+}
+footer img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+footer .btn-block{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #bb4d4d;
+}
+
+footer p{
+	font-size: 20px;
+}
+
+/*______end of footer styles_____ */

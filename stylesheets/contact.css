@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#hero-image-wrapper{
+	width: 100%;
+	height: 70vh;
+	background: url(../images/food2.jpg) no-repeat;
+	background-size: cover;
+}
+
+.overlay-content{
+	width: 100%;
+	height: 70vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+/*start navbar styles*/
+.navbar{
+	margin-top: 10px;
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 0, 0.09);
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar .navbar-brand img{
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+.navbar .nav-item{
+	margin: 0 10px;
+}
+.navbar .nav-link{
+	font-size: 1.2em;
+	color: white !important;
+}
+
+.navbar .nav-item:nth-child(2) .nav-link{
+	color: #bb4d4d !important;
+}
+
+
+/*end navbar styles */
+
+#restaurant-name{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#restaurant-name h1{
+	font-size: 4rem;
+	color: #bb4d4d;
+}
+#restaurant-name p{
+	font-size: 20px;
+	color: white;
+}
+
+.about-header{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+/*start of main styles */
+main .first-row img{
+	width: 100%;
+}
+
+.content-header{
+	color: #bb4d4d;
+	font-weight: bold;
+	/*font-size: 35px; */
+}
+main .card{
+	border-color: transparent !important;
+}
+
+main .card img{
+	width: 100%;
+	height: 250px;
+	border-radius: 20px;
+}
+main .card p{
+	font-size: 1.1em;
+}
+.card-deck .social a{
+	margin: 10px;
+}
+.card-deck .social i{
+	font-size: 1.3em;
+}
+
+
+
+
+.services .catering p:last-child{
+	margin-left: 10px;
+}
+
+.services .catering img{
+	width: 100px;
+	height: 80px;
+}
+.services .catering .d-block{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+
+
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid lightgrey;
+}
+.menu-item{
+	flex-basis: 400px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	display: flex;
+}
+.menu-item > div{
+	background-color: #ffc0c0;
+}
+.menu-item h5{
+	color: #bb4d4d;
+}
+.menu-item img{
+	width: inherit;
+}
+
+.drinks-section{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.drinks-section > div{
+	flex-basis: 150px;
+	max-width: 300px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 20px;
+	text-align: center;
+}
+
+.drinks-section img{
+	width:100px;
+	height: 100px;
+	border-radius: 20px;
+}
+
+
+
+
+/*end of main styles */
+
+
+
+
+
+
+
+
+/*____start of footer styles___________ */
+#footer-wrapper{
+	background-color: #141313;
+	color: white;
+}
+
+
+footer .form-group{
+	margin-left: 10px;
+}
+footer img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+footer .btn-block{
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #bb4d4d;
+}
+
+/*______end of footer styles_____ */
