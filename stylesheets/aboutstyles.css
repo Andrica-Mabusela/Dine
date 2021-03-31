@@ -63,21 +63,20 @@ body{
 	text-decoration: none;
 }
 #social i{
-	color: black;
+	color: white;
 	padding: 5px;
 	border: 1px solid rgb(167 155 155 / 20%);
-	border-radius: 48%;
 }
 
-#social .icon-facebook{
+#social .fa-facebook:hover{
 	background-color: blue;
 }
 
-#social .icon-twitter{
+#social .fa-twitter:hover{
 	background-color: skyblue;
 }
 
-#social .icon-pinterest{
+#social .fa-pinterest:hover{
 	background-color: red;
 }
 
